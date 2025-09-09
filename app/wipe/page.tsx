@@ -70,7 +70,7 @@ export default function WipePage() {
           setError(result.error || "Wipe operation failed")
         }
       } catch (err) {
-        setError("Network error occurred")
+        setError(`Network error occurred:`)
       }
 
     setWiping(false)
